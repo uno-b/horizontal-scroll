@@ -17,7 +17,7 @@
   align-items: center;
 
   margin: 1em auto;
-  padding: 2em;
+  padding: 1rem;
   width: 500px;
   height: 500px;
 
@@ -31,4 +31,31 @@
 
 .child p {
   line-height: 1.5;
+}
+
+.child ul {
+  text-align: start;
+  margin: 5rem 0 0 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background-color: #073763;
+  color: white;
+  font-weight: bold;
+}
+
+#box-1 {
+  height: 50px;
+}
+
+#box-2 {
+  height: 70px;
+}
+
+#box-3 {
+  height: 90px;
 }
